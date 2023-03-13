@@ -1,0 +1,10 @@
+instance_name      = "mspoc"
+dns_name           = "devopsat.dev"
+environments       = ["dev", "qa"]
+project_id         = "cibanco-at"
+region             = "us-central1"
+main_zone          = "us-central1-a"
+node_zones         = ["us-central1-a", "us-central1-b", "us-central1-c"]
+machine_type       = "e2-medium"
+node_count         = 1
+enable_autopilot   = true
